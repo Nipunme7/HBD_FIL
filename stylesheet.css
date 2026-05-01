@@ -1618,11 +1618,11 @@ o @keyframes bannar_come {
 }
 
 .message-img:first-child {
-	transform: rotate(-5deg) !important;
+	transform: rotate(-8deg) translateY(4px) !important;
 }
 
 .message-img:last-child {
-	transform: rotate(5deg) !important;
+	transform: rotate(8deg) translateY(-4px) !important;
 }
 
 .message-img:hover {
