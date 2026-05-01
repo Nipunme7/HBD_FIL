@@ -1617,6 +1617,14 @@ o @keyframes bannar_come {
 	transition: transform 0.3s ease;
 }
 
+.message-img:first-child {
+	transform: rotate(-5deg) !important;
+}
+
+.message-img:last-child {
+	transform: rotate(5deg) !important;
+}
+
 .message-img:hover {
 	transform: rotate(0deg) scale(1.05);
 }
