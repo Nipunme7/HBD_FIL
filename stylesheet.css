@@ -1598,7 +1598,7 @@ o @keyframes bannar_come {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	gap: 15px;
+	gap: 20px;
 	width: 100%;
 	max-width: 500px;
 	z-index: 2;
@@ -1618,11 +1618,11 @@ o @keyframes bannar_come {
 }
 
 .message-img:first-child {
-	transform: rotate(-8deg) translateY(4px) !important;
+	transform: rotate(-6deg) !important;
 }
 
 .message-img:last-child {
-	transform: rotate(8deg) translateY(-4px) !important;
+	transform: rotate(-6deg) !important;
 }
 
 .message-img:hover {
