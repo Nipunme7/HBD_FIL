@@ -1605,23 +1605,16 @@ o @keyframes bannar_come {
 }
 
 .message-img {
-	max-width: 100%;
+	display: block;
+	flex: 0 0 180px;
 	width: 180px;
-	height: auto;
-	max-height: 200px;
+	height: 200px;
 	object-fit: cover;
+	object-position: center;
 	margin: 0;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	transition: transform 0.3s ease;
-}
-
-.message-img:first-child {
-	transform: rotate(-5deg) !important;
-}
-
-.message-img:last-child {
-	transform: rotate(5deg) !important;
 }
 
 .message-img:hover {
@@ -1648,9 +1641,9 @@ o @keyframes bannar_come {
 	}
 	
 	.message-img {
-		width: 45%;
-		max-width: 140px;
-		max-height: 160px;
+		flex: 0 0 140px;
+		width: 140px;
+		height: 160px;
 		margin: 0;
 	}
 }
